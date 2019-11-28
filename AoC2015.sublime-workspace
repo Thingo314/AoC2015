@@ -4,16 +4,24 @@
 		"selected_items":
 		[
 			[
+				"new",
+				"newB"
+			],
+			[
+				"inst",
+				"instruction"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
 				"get",
 				"getName"
 			],
 			[
 				"Compara",
 				"Comparator"
-			],
-			[
-				"inst",
-				"instruction"
 			],
 			[
 				"instr",
@@ -78,10 +86,6 @@
 			[
 				"Arra",
 				"Arrays"
-			],
-			[
-				"new",
-				"newPos"
 			],
 			[
 				"ov",
@@ -240,10 +244,10 @@
 	"buffers":
 	[
 		{
-			"contents": "Remote:   origin @ git@github.com:Thingo314/AoC2015.git\nLocal:    master /data/git-repos/AoC2015\nHead:     b669895 Solution to Day 6\n\n\nUntracked files:\n\tDay_07/\n\nChanges:\n\tModified   AoC2015.sublime-workspace\n\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"contents": "Remote:   origin @ git@github.com:Thingo314/AoC2015.git\nLocal:    master /data/git-repos/AoC2015\nHead:     a684b67 Solution to Day 7\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
 			"settings":
 			{
-				"buffer_size": 971,
+				"buffer_size": 940,
 				"line_ending": "Unix",
 				"name": "*git-status*: AoC2015",
 				"read_only": true,
@@ -251,37 +255,20 @@
 			}
 		},
 		{
-			"contents": "sam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                       \nDay_05.java:59: error: missing return statement\n        }                                                    \n        ^\n1 error\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05                             \ntrue                                                                    \ntrue  \nfalse \nfalse                           \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                        \nDay_05.java:51: error: cannot find symbol\n                return containsDoubleLetters(s.substring(2));\n                       ^        \n  symbol:   method containsDoubleLetters(String)                      \n  location: class Day_05\n1 error                         \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java            \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05                        \ntrue          \nfalse          \nfalse                                              \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05                 \nfalse         \ntrue           \nfalse                                                \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05                        \ntrue            \nfalse           \ntrue                                                                      \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ subl in.txt                             \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05 < in.txt                    \n160             \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java              \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05 < in.txt                     \ntrue                                                   \ntrue                                                  \nfalse                                              \nfalse                                              \nfalse                                                                        \n160                                                                                      \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                     \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05 < in.txt                     \ntrue\ntrue\nfalse\nfalse\nfalse\n238\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                     \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05 \ntrue\ntrue\nfalse\nfalse\n0\n0\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05 < in.txt               \n238\n69\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ javac Day_05.java                     \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ java Day_05 < in.txt                     \nPart 1: 238\nPart 2: 69\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_05$ cd ..                                   \nsam@sam-GS63-7RD:/data/git-repos/AoC2015$ mkdir Day_06                                   \nsam@sam-GS63-7RD:/data/git-repos/AoC2015$ cd Day_06                                      \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ subl Day_06.java                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ subl in.txt                             \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ javac Day_06.java \nDay_06.java:9: error: incompatible types: String[] cannot be converted to String\n                        String line = sc.nextLine().trim().split(\" \");\n                                                                ^\nDay_06.java:10: error: array required, but String found\n                        if (line[0].equals(\"toggle\")) {\n                                ^\nDay_06.java:11: error: array required, but String found\n                                String[] min = line[1].split(\",\");\n                                                   ^\nDay_06.java:12: error: array required, but String found\n                                String[] max = line[3].split(\",\");\n                                                   ^\nDay_06.java:24: error: array required, but String found\n                                if (line[1].equals(\"on\"))\n                                        ^\nDay_06.java:26: error: array required, but String found\n                                String[] min = line[1].split(\",\");\n                                                   ^\nDay_06.java:27: error: array required, but String found\n                                String[] max = line[3].split(\",\");\n                                                   ^\n7 errors\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ javac Day_06.java \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ java Day_06 < in.txt                    \nException in thread \"main\" java.lang.NumberFormatException: For input string: \"off\"\n        at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException​‌​\n.java:65)\n        at java.base/java.lang.Integer.parseInt(Integer.java:652)\n        at java.base/java.lang.Integer.parseInt(Integer.java:770)\n        at Day_06.main(Day_06.java:28)\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ javac Day_06.java                     \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ java Day_06 < in.txt                     \n400410\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ javac Day_06.java                     \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ java Day_06 < in.txt                     \n0\n1\n400410\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ javac Day_06.java                       \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ java Day_06 < in.txt                    \n400410\n15343601\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ javac Day_06.java                     \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ java Day_06 < in.txt                     \nPart 1: 400410\nPart 2: 15343601\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_06$ cd ../\nsam@sam-GS63-7RD:/data/git-repos/AoC2015$ mkdir Day_07                                   \nsam@sam-GS63-7RD:/data/git-repos/AoC2015$ cd Day_07                                      \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ subl Day_07.java\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ subl in.txt                             \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java \nDay_07.java:11: error: method sort in class ArrayList<E> cannot be applied to given types​‌​\n;\n                instructions.sort();\n                            ^\n  required: Comparator<? super String>\n  found: no arguments\n  reason: actual and formal argument lists differ in length\n  where E is a type-variable:\n    E extends Object declared in class ArrayList\n1 error\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07 < in.txt > out.txt          \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ subl out.txt \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java            \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07 \n65535\n0\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07                        \n65535\n0\n{\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07                        \n65535\n0\n123\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java                        \nDay_07.java:18: error: incompatible types: possible lossy conversion from int to char\n                char b = ~a;\n                         ^\n1 error\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java                        \nDay_07.java:19: error: incompatible types: possible lossy conversion from int to char\n                b = ~b;\n                    ^\n1 error\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java \nDay_07.java:19: error: incompatible types: possible lossy conversion from int to char\n                b = ~(char)b;\n                    ^\n1 error\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07                        \n65535\n0\n123\n65412\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ \nsam@sam-GS63-7RD:/data/git-repos/AoC2015$ cd Day_07                                                                                                                                         \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07 \n65535\n0\n123\n65412\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java                                                                                                                           \nDay_07.java:12: error: incompatible types: String[] cannot be converted to String\n                for (String instruction : instructions) {\n                                          ^\n1 error\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07 < in.txt                                                                                                                       \nException in thread \"main\" java.lang.ClassCastException: class [Ljava.lang.String; cannot be cast to class java.lang.Comparable ([Ljava.lang.String; and java.lang.Comparable are in module ​‌​\njava.base of loader 'bootstrap')\n        at java.base/java.util.ComparableTimSort.countRunAndMakeAscending(ComparableTimSort.java:320)\n        at java.base/java.util.ComparableTimSort.sort(ComparableTimSort.java:202)\n        at java.base/java.util.Arrays.sort(Arrays.java:1315)\n        at java.base/java.util.Arrays.sort(Arrays.java:1509)\n        at java.base/java.util.ArrayList.sort(ArrayList.java:1749)\n        at Day_07.main(Day_07.java:11)\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java                                                                                                                        \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07 < in.txt                                                                                                                        \n[[Ljava.lang.String;@3f99bd52, [Ljava.lang.String;@4f023edb, [Ljava.lang.String;@3a71f4dd, [Ljava.lang.String;@7adf9f5f, [Ljava.lang.String;@85ede7b, [Ljava.lang.String;@5674cd4d, [Ljava.l​‌​\nang.String;@63961c42, [Ljava.lang.String;@65b54208, [Ljava.lang.String;@1be6f5c3, [Ljava.lang.String;@6b884d57, [Ljava.lang.String;@38af3868, [Ljava.lang.String;@77459877, [Ljava.lang.Stri​‌​\nng;@5b2133b1, [Ljava.lang.String;@72ea2f77, [Ljava.lang.String;@33c7353a, [Ljava.lang.String;@681a9515, [Ljava.lang.String;@3af49f1c, [Ljava.lang.String;@19469ea2, [Ljava.lang.String;@1322​‌​\n1655, [Ljava.lang.String;@2f2c9b19, [Ljava.lang.String;@31befd9f, [Ljava.lang.String;@1c20c684, [Ljava.lang.String;@1fb3ebeb, [Ljava.lang.String;@548c4f57, [Ljava.lang.String;@1218025c, [L​‌​\njava.lang.String;@816f27d, [Ljava.lang.String;@87aac27, [Ljava.lang.String;@3e3abc88, [Ljava.lang.String;@6ce253f1, [Ljava.lang.String;@53d8d10a, [Ljava.lang.String;@e9e54c2, [Ljava.lang.S​‌​\ntring;@65ab7765, [Ljava.lang.String;@1b28cdfa, [Ljava.lang.String;@eed1f14, [Ljava.lang.String;@7229724f, [Ljava.lang.String;@4c873330, [Ljava.lang.String;@119d7047, [Ljava.lang.String;@77​‌​\n6ec8df, [Ljava.lang.String;@4eec7777, [Ljava.lang.String;@3b07d329, [Ljava.lang.String;@41629346, [Ljava.lang.String;@404b9385, [Ljava.lang.String;@6d311334, [Ljava.lang.String;@682a0b20, ​‌​\n[Ljava.lang.String;@3d075dc0, [Ljava.lang.String;@214c265e, [Ljava.lang.String;@448139f0, [Ljava.lang.String;@7cca494b, [Ljava.lang.String;@7ba4f24f, [Ljava.lang.String;@3b9a45b3, [Ljava.l​‌​\nang.String;@7699a589, [Ljava.lang.String;@58372a00, [Ljava.lang.String;@4dd8dc3, [Ljava.lang.String;@6d03e736, [Ljava.lang.String;@568db2f2, [Ljava.lang.String;@378bf509, [Ljava.lang.Strin​‌​\ng;@5fd0d5ae, [Ljava.lang.String;@2d98a335, [Ljava.lang.String;@16b98e56, [Ljava.lang.String;@7ef20235, [Ljava.lang.String;@27d6c5e0, [Ljava.lang.String;@4f3f5b24, [Ljava.lang.String;@15aeb​‌​\n7ab, [Ljava.lang.String;@7b23ec81, [Ljava.lang.String;@6acbcfc0, [Ljava.lang.String;@5f184fc6, [Ljava.lang.String;@3feba861, [Ljava.lang.String;@5b480cf9, [Ljava.lang.String;@6f496d9f, [Lj\nava.lang.String;@723279cf, [Ljava.lang.String;@10f87f48, [Ljava.lang.String;@b4c966a, [Ljava.lang.String;@2f4d3709, [Ljava.lang.String;@4e50df2e, [Ljava.lang.String;@1d81eb93, [Ljava.lang.\nString;@7291c18f, [Ljava.lang.String;@34a245ab, [Ljava.lang.String;@7cc355be, [Ljava.lang.String;@6e8cf4c6, [Ljava.lang.String;@12edcd21, [Ljava.lang.String;@34c45dca, [Ljava.lang.String;@\n52cc8049, [Ljava.lang.String;@5b6f7412, [Ljava.lang.String;@27973e9b, [Ljava.lang.String;@312b1dae, [Ljava.lang.String;@7530d0a, [Ljava.lang.String;@27bc2616, [Ljava.lang.String;@3941a79c,\n [Ljava.lang.String;@506e1b77, [Ljava.lang.String;@4fca772d, [Ljava.lang.String;@9807454, [Ljava.lang.String;@3d494fbf, [Ljava.lang.String;@1ddc4ec2, [Ljava.lang.String;@133314b, [Ljava.la\nng.String;@b1bc7ed, [Ljava.lang.String;@7cd84586, [Ljava.lang.String;@30dae81, [Ljava.lang.String;@1b2c6ec2, [Ljava.lang.String;@4edde6e5, [Ljava.lang.String;@70177ecd, [Ljava.lang.String;\n@1e80bfe8, [Ljava.lang.String;@66a29884, [Ljava.lang.String;@4769b07b, [Ljava.lang.String;@cc34f4d, [Ljava.lang.String;@17a7cec2, [Ljava.lang.String;@65b3120a, [Ljava.lang.String;@6f539caf\n, [Ljava.lang.String;@79fc0f2f, [Ljava.lang.String;@50040f0c, [Ljava.lang.String;@2dda6444, [Ljava.lang.String;@5e9f23b4, [Ljava.lang.String;@4783da3f, [Ljava.lang.String;@378fd1ac, [Ljava\n.lang.String;@49097b5d, [Ljava.lang.String;@6e2c634b, [Ljava.lang.String;@37a71e93, [Ljava.lang.String;@7e6cbb7a, [Ljava.lang.String;@7c3df479, [Ljava.lang.String;@7106e68e, [Ljava.lang.St\nring;@7eda2dbb, [Ljava.lang.String;@6576fe71, [Ljava.lang.String;@76fb509a, [Ljava.lang.String;@300ffa5d, [Ljava.lang.String;@1f17ae12, [Ljava.lang.String;@4d405ef7, [Ljava.lang.String;@61\n93b845, [Ljava.lang.String;@2e817b38, [Ljava.lang.String;@c4437c4, [Ljava.lang.String;@433c675d, [Ljava.lang.String;@3f91beef, [Ljava.lang.String;@1a6c5a9e, [Ljava.lang.String;@37bba400, [\nLjava.lang.String;@179d3b25, [Ljava.lang.String;@254989ff, [Ljava.lang.String;@5d099f62, [Ljava.lang.String;@37f8bb67, [Ljava.lang.String;@49c2faae, [Ljava.lang.String;@20ad9418, [Ljava.la\nng.String;@31cefde0, [Ljava.lang.String;@439f5b3d, [Ljava.lang.String;@1d56ce6a, [Ljava.lang.String;@5197848c, [Ljava.lang.String;@17f052a3, [Ljava.lang.String;@2e0fa5d3, [Ljava.lang.Strin\ng;@5010be6, [Ljava.lang.String;@685f4c2e, [Ljava.lang.String;@7daf6ecc, [Ljava.lang.String;@2e5d6d97, [Ljava.lang.String;@238e0d81, [Ljava.lang.String;@31221be2, [Ljava.lang.String;@377dca\n04, [Ljava.lang.String;@728938a9, [Ljava.lang.String;@21b8d17c, [Ljava.lang.String;@6433a2, [Ljava.lang.String;@5910e440, [Ljava.lang.String;@6267c3bb, [Ljava.lang.String;@533ddba, [Ljava.\nlang.String;@246b179d, [Ljava.lang.String;@7a07c5b4, [Ljava.lang.String;@26a1ab54, [Ljava.lang.String;@3d646c37, [Ljava.lang.String;@41cf53f9, [Ljava.lang.String;@5a10411, [Ljava.lang.Stri\nng;@2ef1e4fa, [Ljava.lang.String;@306a30c7, [Ljava.lang.String;@b81eda8, [Ljava.lang.String;@68de145, [Ljava.lang.String;@27fa135a, [Ljava.lang.String;@46f7f36a, [Ljava.lang.String;@421faa\nb1, [Ljava.lang.String;@2b71fc7e, [Ljava.lang.String;@5ce65a89, [Ljava.lang.String;@25f38edc, [Ljava.lang.String;@1a86f2f1, [Ljava.lang.String;@3eb07fd3, [Ljava.lang.String;@506c589e, [Lja\nva.lang.String;@69d0a921, [Ljava.lang.String;@446cdf90, [Ljava.lang.String;@799f7e29, [Ljava.lang.String;@4b85612c, [Ljava.lang.String;@277050dc, [Ljava.lang.String;@5c29bfd, [Ljava.lang.S\ntring;@7aec35a, [Ljava.lang.String;@67424e82, [Ljava.lang.String;@42110406, [Ljava.lang.String;@531d72ca, [Ljava.lang.String;@22d8cfe0, [Ljava.lang.String;@579bb367, [Ljava.lang.String;@1d\ne0aca6, [Ljava.lang.String;@255316f2, [Ljava.lang.String;@41906a77, [Ljava.lang.String;@4b9af9a9, [Ljava.lang.String;@5387f9e0, [Ljava.lang.String;@6e5e91e4, [Ljava.lang.String;@2cdf8d8a, \n[Ljava.lang.String;@30946e09, [Ljava.lang.String;@5cb0d902, [Ljava.lang.String;@46fbb2c1, [Ljava.lang.String;@1698c449, [Ljava.lang.String;@5ef04b5, [Ljava.lang.String;@5f4da5c3, [Ljava.la\nng.String;@443b7951, [Ljava.lang.String;@14514713, [Ljava.lang.String;@69663380, [Ljava.lang.String;@5b37e0d2, [Ljava.lang.String;@4459eb14, [Ljava.lang.String;@5a2e4553, [Ljava.lang.Strin\ng;@28c97a5, [Ljava.lang.String;@6659c656, [Ljava.lang.String;@6d5380c2, [Ljava.lang.String;@45ff54e6, [Ljava.lang.String;@2328c243, [Ljava.lang.String;@bebdb06, [Ljava.lang.String;@7a4f0f2\n9, [Ljava.lang.String;@45283ce2, [Ljava.lang.String;@2077d4de, [Ljava.lang.String;@7591083d, [Ljava.lang.String;@77a567e1, [Ljava.lang.String;@736e9adb, [Ljava.lang.String;@6d21714c, [Ljav\na.lang.String;@108c4c35, [Ljava.lang.String;@4ccabbaa, [Ljava.lang.String;@4bf558aa, [Ljava.lang.String;@2d38eb89, [Ljava.lang.String;@5fa7e7ff, [Ljava.lang.String;@4629104a, [Ljava.lang.S\ntring;@27f8302d, [Ljava.lang.String;@4d76f3f8, [Ljava.lang.String;@2d8e6db6, [Ljava.lang.String;@23ab930d, [Ljava.lang.String;@4534b60d, [Ljava.lang.String;@3fa77460, [Ljava.lang.String;@6\n19a5dff, [Ljava.lang.String;@1ed6993a, [Ljava.lang.String;@7e32c033, [Ljava.lang.String;@7ab2bfe1, [Ljava.lang.String;@497470ed, [Ljava.lang.String;@63c12fb0, [Ljava.lang.String;@b1a58a3, \n[Ljava.lang.String;@6438a396, [Ljava.lang.String;@e2144e4, [Ljava.lang.String;@6477463f, [Ljava.lang.String;@3d71d552, [Ljava.lang.String;@1cf4f579, [Ljava.lang.String;@18769467, [Ljava.la\nng.String;@46ee7fe8, [Ljava.lang.String;@7506e922, [Ljava.lang.String;@4ee285c6, [Ljava.lang.String;@621be5d1, [Ljava.lang.String;@573fd745, [Ljava.lang.String;@15327b79, [Ljava.lang.Strin\ng;@4f2410ac, [Ljava.lang.String;@722c41f4, [Ljava.lang.String;@5b80350b, [Ljava.lang.String;@5d6f64b1, [Ljava.lang.String;@32a1bec0, [Ljava.lang.String;@22927a81, [Ljava.lang.String;@78e03\nbb5, [Ljava.lang.String;@5e8c92f4, [Ljava.lang.String;@61e4705b, [Ljava.lang.String;@50134894, [Ljava.lang.String;@2957fcb0, [Ljava.lang.String;@1376c05c, [Ljava.lang.String;@51521cc1, [Lj\nava.lang.String;@1b4fb997, [Ljava.lang.String;@deb6432, [Ljava.lang.String;@28ba21f3, [Ljava.lang.String;@694f9431, [Ljava.lang.String;@f2a0b8e, [Ljava.lang.String;@593634ad, [Ljava.lang.S\ntring;@20fa23c1, [Ljava.lang.String;@3581c5f3, [Ljava.lang.String;@6aa8ceb6, [Ljava.lang.String;@2530c12, [Ljava.lang.String;@73c6c3b2, [Ljava.lang.String;@48533e64, [Ljava.lang.String;@64\na294a6, [Ljava.lang.String;@7e0b37bc, [Ljava.lang.String;@3b95a09c, [Ljava.lang.String;@6ae40994, [Ljava.lang.String;@1a93a7ca, [Ljava.lang.String;@3d82c5f3, [Ljava.lang.String;@2b05039f, \n[Ljava.lang.String;@61e717c2, [Ljava.lang.String;@66cd51c3, [Ljava.lang.String;@4dcbadb4, [Ljava.lang.String;@4e515669, [Ljava.lang.String;@17d10166, [Ljava.lang.String;@1b9e1916, [Ljava.l\nang.String;@ba8a1dc, [Ljava.lang.String;@4f8e5cde, [Ljava.lang.String;@504bae78, [Ljava.lang.String;@3b764bce, [Ljava.lang.String;@759ebb3d, [Ljava.lang.String;@484b61fc, [Ljava.lang.Strin\ng;@45fe3ee3, [Ljava.lang.String;@4cdf35a9, [Ljava.lang.String;@4c98385c, [Ljava.lang.String;@5fcfe4b2, [Ljava.lang.String;@6bf2d08e, [Ljava.lang.String;@5eb5c224, [Ljava.lang.String;@53e25\nb76, [Ljava.lang.String;@73a8dfcc, [Ljava.lang.String;@ea30797, [Ljava.lang.String;@7e774085, [Ljava.lang.String;@3f8f9dd6, [Ljava.lang.String;@aec6354, [Ljava.lang.String;@1c655221, [Ljav\na.lang.String;@58d25a40, [Ljava.lang.String;@1b701da1, [Ljava.lang.String;@726f3b58, [Ljava.lang.String;@442d9b6e, [Ljava.lang.String;@ee7d9f1, [Ljava.lang.String;@15615099, [Ljava.lang.St\nring;@1edf1c96, [Ljava.lang.String;@368102c8, [Ljava.lang.String;@6996db8, [Ljava.lang.String;@1963006a, [Ljava.lang.String;@7fbe847c, [Ljava.lang.String;@41975e01, [Ljava.lang.String;@c2e\n1f26, [Ljava.lang.String;@dcf3e99, [Ljava.lang.String;@6d9c638, [Ljava.lang.String;@7dc5e7b4, [Ljava.lang.String;@1ee0005, [Ljava.lang.String;@75a1cd57, [Ljava.lang.String;@3d012ddd, [Ljav\na.lang.String;@6f2b958e, [Ljava.lang.String;@1eb44e46, [Ljava.lang.String;@6504e3b2, [Ljava.lang.String;@515f550a, [Ljava.lang.String;@626b2d4a, [Ljava.lang.String;@5e91993f, [Ljava.lang.S\ntring;@1c4af82c, [Ljava.lang.String;@379619aa, [Ljava.lang.String;@cac736f, [Ljava.lang.String;@5e265ba4, [Ljava.lang.String;@156643d4, [Ljava.lang.String;@123a439b]\nException in thread \"main\" java.lang.ClassCastException: class [Ljava.lang.String; cannot be cast to class java.lang.Comparable ([Ljava.lang.String; and java.lang.Comparable are in module \njava.base of loader 'bootstrap')\n        at java.base/java.util.ComparableTimSort.countRunAndMakeAscending(ComparableTimSort.java:320)\n        at java.base/java.util.ComparableTimSort.sort(ComparableTimSort.java:202)\n        at java.base/java.util.Arrays.sort(Arrays.java:1315)\n        at java.base/java.util.Arrays.sort(Arrays.java:1509)\n        at java.base/java.util.ArrayList.sort(ArrayList.java:1749)\n        at Day_07.main(Day_07.java:12)\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ javac Day_07.java                                                                                                                          \nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ java Day_07 < in.txt         \n0 -> c\n1 AND am -> an\n1 AND bh -> bi\n1 AND cc -> cd\n1 AND cx -> cy\n1 AND ds -> dt\n1 AND en -> eo\n1 AND fi -> fj\n1 AND gd -> ge\n1 AND gy -> gz\n1 AND ht -> hu\n1 AND io -> ip\n1 AND jj -> jk\n1 AND ke -> kf\n1 AND kz -> la\n1 AND lu -> lv\n1 AND r -> s\n19138 -> b\nNOT ac -> ad\nNOT ag -> ah\nNOT ak -> al\nNOT ax -> ay\nNOT bb -> bc\nNOT bf -> bg\nNOT bs -> bt\nNOT bw -> bx\nNOT ca -> cb\nNOT cn -> co\nNOT cr -> cs\nNOT cv -> cw\nNOT di -> dj\nNOT dm -> dn\nNOT dq -> dr\nNOT ed -> ee\nNOT eh -> ei\nNOT el -> em\nNOT ey -> ez\nNOT fc -> fd\nNOT fg -> fh\nNOT ft -> fu\nNOT fx -> fy\nNOT gb -> gc\nNOT go -> gp\nNOT gs -> gt\nNOT gw -> gx\nNOT h -> i\nNOT hj -> hk\nNOT hn -> ho\nNOT hr -> hs\nNOT ie -> if\nNOT ii -> ij\nNOT im -> in\nNOT iz -> ja\nNOT jd -> je\nNOT jh -> ji\nNOT ju -> jv\nNOT jy -> jz\nNOT kc -> kd\nNOT kp -> kq\nNOT kt -> ku\nNOT kx -> ky\nNOT l -> m\nNOT lk -> ll\nNOT lo -> lp\nNOT ls -> lt\nNOT p -> q\nab AND ad -> ae\naf AND ah -> ai\naj AND al -> am\nan LSHIFT 15 -> ar\nao OR an -> ap\nap LSHIFT 1 -> bj\naq OR ar -> as\nas AND bd -> bf\nas OR bd -> be\nas RSHIFT 1 -> bl\nas RSHIFT 2 -> at\nas RSHIFT 3 -> au\nas RSHIFT 5 -> av\nat AND az -> bb\nat OR az -> ba\nau AND av -> ax\nau OR av -> aw\naw AND ay -> az\nb AND n -> p\nb OR n -> o\nb RSHIFT 1 -> v\nb RSHIFT 2 -> d\nb RSHIFT 3 -> e\nb RSHIFT 5 -> f\nba AND bc -> bd\nbe AND bg -> bh\nbi LSHIFT 15 -> bm\nbj OR bi -> bk\nbk LSHIFT 1 -> ce\nbl OR bm -> bn\nbn AND by -> ca\nbn OR by -> bz\nbn RSHIFT 1 -> cg\nbn RSHIFT 2 -> bo\nbn RSHIFT 3 -> bp\nbn RSHIFT 5 -> bq\nbo AND bu -> bw\nbo OR bu -> bv\nbp AND bq -> bs\nbp OR bq -> br\nbr AND bt -> bu\nbv AND bx -> by\nbz AND cb -> cc\nc LSHIFT 1 -> t\ncd LSHIFT 15 -> ch\nce OR cd -> cf\ncf LSHIFT 1 -> cz\ncg OR ch -> ci\nci AND ct -> cv\nci OR ct -> cu\nci RSHIFT 1 -> db\nci RSHIFT 2 -> cj\nci RSHIFT 3 -> ck\nci RSHIFT 5 -> cl\ncj AND cp -> cr\ncj OR cp -> cq\nck AND cl -> cn\nck OR cl -> cm\ncm AND co -> cp\ncq AND cs -> ct\ncu AND cw -> cx\ncy LSHIFT 15 -> dc\ncz OR cy -> da\nd AND j -> l\nd OR j -> k\nda LSHIFT 1 -> du\ndb OR dc -> dd\ndd AND do -> dq\ndd OR do -> dp\ndd RSHIFT 1 -> dw\ndd RSHIFT 2 -> de\ndd RSHIFT 3 -> df\ndd RSHIFT 5 -> dg\nde AND dk -> dm\nde OR dk -> dl\ndf AND dg -> di\ndf OR dg -> dh\ndh AND dj -> dk\ndl AND dn -> do\ndp AND dr -> ds\ndt LSHIFT 15 -> dx\ndu OR dt -> dv\ndv LSHIFT 1 -> ep\ndw OR dx -> dy\ndy AND ej -> el\ndy OR ej -> ek\ndy RSHIFT 1 -> er\ndy RSHIFT 2 -> dz\ndy RSHIFT 3 -> ea\ndy RSHIFT 5 -> eb\ndz AND ef -> eh\ndz OR ef -> eg\ne AND f -> h\ne OR f -> g\nea AND eb -> ed\nea OR eb -> ec\nec AND ee -> ef\neg AND ei -> ej\nek AND em -> en\neo LSHIFT 15 -> es\nep OR eo -> eq\neq LSHIFT 1 -> fk\ner OR es -> et\net AND fe -> fg\net OR fe -> ff\net RSHIFT 1 -> fm\net RSHIFT 2 -> eu\net RSHIFT 3 -> ev\net RSHIFT 5 -> ew\neu AND fa -> fc\neu OR fa -> fb\nev AND ew -> ey\nev OR ew -> ex\nex AND ez -> fa\nfb AND fd -> fe\nff AND fh -> fi\nfj LSHIFT 15 -> fn\nfk OR fj -> fl\nfl LSHIFT 1 -> gf\nfm OR fn -> fo\nfo AND fz -> gb\nfo OR fz -> ga\nfo RSHIFT 1 -> gh\nfo RSHIFT 2 -> fp\nfo RSHIFT 3 -> fq\nfo RSHIFT 5 -> fr\nfp AND fv -> fx\nfp OR fv -> fw\nfq AND fr -> ft\nfq OR fr -> fs\nfs AND fu -> fv\nfw AND fy -> fz\ng AND i -> j\nga AND gc -> gd\nge LSHIFT 15 -> gi\ngf OR ge -> gg\ngg LSHIFT 1 -> ha\ngh OR gi -> gj\ngj AND gu -> gw\ngj OR gu -> gv\ngj RSHIFT 1 -> hc\ngj RSHIFT 2 -> gk\ngj RSHIFT 3 -> gl\ngj RSHIFT 5 -> gm\ngk AND gq -> gs\ngk OR gq -> gr\ngl AND gm -> go\ngl OR gm -> gn\ngn AND gp -> gq\ngr AND gt -> gu\ngv AND gx -> gy\ngz LSHIFT 15 -> hd\nha OR gz -> hb\nhb LSHIFT 1 -> hv\nhc OR hd -> he\nhe AND hp -> hr\nhe OR hp -> hq\nhe RSHIFT 1 -> hx\nhe RSHIFT 2 -> hf\nhe RSHIFT 3 -> hg\nhe RSHIFT 5 -> hh\nhf AND hl -> hn\nhf OR hl -> hm\nhg AND hh -> hj\nhg OR hh -> hi\nhi AND hk -> hl\nhm AND ho -> hp\nhq AND hs -> ht\nhu LSHIFT 15 -> hy\nhv OR hu -> hw\nhw LSHIFT 1 -> iq\nhx OR hy -> hz\nhz AND ik -> im\nhz OR ik -> il\nhz RSHIFT 1 -> is\nhz RSHIFT 2 -> ia\nhz RSHIFT 3 -> ib\nhz RSHIFT 5 -> ic\nia AND ig -> ii\nia OR ig -> ih\nib AND ic -> ie\nib OR ic -> id\nid AND if -> ig\nih AND ij -> ik\nil AND in -> io\nip LSHIFT 15 -> it\niq OR ip -> ir\nir LSHIFT 1 -> jl\nis OR it -> iu\niu AND jf -> jh\niu OR jf -> jg\niu RSHIFT 1 -> jn\niu RSHIFT 2 -> iv\niu RSHIFT 3 -> iw\niu RSHIFT 5 -> ix\niv AND jb -> jd\niv OR jb -> jc\niw AND ix -> iz\niw OR ix -> iy\niy AND ja -> jb\njc AND je -> jf\njg AND ji -> jj\njk LSHIFT 15 -> jo\njl OR jk -> jm\njm LSHIFT 1 -> kg\njn OR jo -> jp\njp AND ka -> kc\njp OR ka -> kb\njp RSHIFT 1 -> ki\njp RSHIFT 2 -> jq\njp RSHIFT 3 -> jr\njp RSHIFT 5 -> js\njq AND jw -> jy\njq OR jw -> jx\njr AND js -> ju\njr OR js -> jt\njt AND jv -> jw\njx AND jz -> ka\nk AND m -> n\nkb AND kd -> ke\nkf LSHIFT 15 -> kj\nkg OR kf -> kh\nkh LSHIFT 1 -> lb\nki OR kj -> kk\nkk AND kv -> kx\nkk OR kv -> kw\nkk RSHIFT 1 -> ld\nkk RSHIFT 2 -> kl\nkk RSHIFT 3 -> km\nkk RSHIFT 5 -> kn\nkl AND kr -> kt\nkl OR kr -> ks\nkm AND kn -> kp\nkm OR kn -> ko\nko AND kq -> kr\nks AND ku -> kv\nkw AND ky -> kz\nla LSHIFT 15 -> le\nlb OR la -> lc\nlc LSHIFT 1 -> lw\nld OR le -> lf\nlf AND lq -> ls\nlf OR lq -> lr\nlf RSHIFT 1 -> ly\nlf RSHIFT 2 -> lg\nlf RSHIFT 3 -> lh\nlf RSHIFT 5 -> li\nlg AND lm -> lo\nlg OR lm -> ln\nlh AND li -> lk\nlh OR li -> lj\nlj AND ll -> lm\nln AND lp -> lq\nlr AND lt -> lu\nlv LSHIFT 15 -> lz\nlw OR lv -> lx\nlx -> a\nly OR lz -> ma\no AND q -> r\ns LSHIFT 15 -> w\nt OR s -> u\nu LSHIFT 1 -> ao\nv OR w -> x\nx AND ai -> ak\nx OR ai -> aj\nx RSHIFT 1 -> aq\nx RSHIFT 2 -> y\nx RSHIFT 3 -> z\nx RSHIFT 5 -> aa\ny AND ae -> ag\ny OR ae -> af\nz AND aa -> ac\nz OR aa -> ab\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_07$ ",
+			"contents": "sam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_08$ subl in.txt\nsam@sam-GS63-7RD:/data/git-repos/AoC2015/Day_08$ ",
 			"settings":
 			{
-				"buffer_size": 27311,
+				"buffer_size": 110,
 				"line_ending": "Unix",
 				"name": "Login Shell",
 				"scratch": true
 			}
 		},
 		{
-			"file": "Day_07/Day_07.java",
+			"file": "Day_08/in.txt",
 			"settings":
 			{
-				"buffer_size": 1403,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Day_07/out.txt",
-			"settings":
-			{
-				"buffer_size": 5304,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Day_07/in.txt",
-			"settings":
-			{
-				"buffer_size": 5304,
+				"buffer_size": 6495,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -380,11 +367,13 @@
 	"expanded_folders":
 	[
 		"/data/git-repos/AoC2015",
-		"/data/git-repos/AoC2015/Day_04",
-		"/data/git-repos/AoC2015/Day_07"
+		"/data/git-repos/AoC2015/Day_08"
 	],
 	"file_history":
 	[
+		"/data/git-repos/AoC2015/Day_07/in.txt",
+		"/data/git-repos/AoC2015/Day_07/out.txt",
+		"/data/git-repos/AoC2015/Day_07/Day_07.java",
 		"/data/git-repos/AoC2015/Day_06/in.txt",
 		"/data/git-repos/AoC2015/Day_06/Day_06.java",
 		"/data/git-repos/AoC2015/Day_05/Day_05.java",
@@ -457,7 +446,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 26.0
 	},
 	"find_in_files":
 	{
@@ -471,6 +460,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"operationsSet",
+			"s",
 			"NOT",
 			"lightBrightness",
 			"DoubleLetters",
@@ -530,15 +521,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 971,
+						"buffer_size": 940,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
+								595,
+								595
 							]
 						],
 						"settings":
@@ -556,7 +547,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -564,15 +555,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 27311,
+						"buffer_size": 110,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27311,
-								27311
+								110,
+								110
 							]
 						],
 						"settings":
@@ -594,7 +585,7 @@
 							"is_widget": true,
 							"scroll_past_end": true,
 							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"terminus.highlight_counter": 8,
+							"terminus.highlight_counter": 9,
 							"terminus_view": true,
 							"terminus_view.args":
 							{
@@ -626,304 +617,31 @@
 							"terminus_view.natural_keyboard": true,
 							"terminus_view.panel_name": null,
 							"terminus_view.tag": null,
-							"terminus_view.viewport_y": 9384.0,
+							"terminus_view.viewport_y": 0.0,
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9384.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Day_07/Day_07.java",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1403,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								739,
-								739
-							]
-						],
-						"settings":
-						{
-							"_nv_visual_sel_mode": "mode_visual",
-							"syntax": "Packages/Java/Java.sublime-syntax",
-							"vintage":
-							{
-								"_vintageous_glue_until_normal_mode": false,
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"normal_insert_count": "1",
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 12
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 237.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Day_07/out.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5304,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								256,
-								259
-							],
-							[
-								269,
-								272
-							],
-							[
-								282,
-								285
-							],
-							[
-								295,
-								298
-							],
-							[
-								308,
-								311
-							],
-							[
-								321,
-								324
-							],
-							[
-								334,
-								337
-							],
-							[
-								347,
-								350
-							],
-							[
-								360,
-								363
-							],
-							[
-								373,
-								376
-							],
-							[
-								386,
-								389
-							],
-							[
-								399,
-								402
-							],
-							[
-								412,
-								415
-							],
-							[
-								425,
-								428
-							],
-							[
-								438,
-								441
-							],
-							[
-								451,
-								454
-							],
-							[
-								464,
-								467
-							],
-							[
-								477,
-								480
-							],
-							[
-								490,
-								493
-							],
-							[
-								503,
-								506
-							],
-							[
-								516,
-								519
-							],
-							[
-								529,
-								532
-							],
-							[
-								542,
-								545
-							],
-							[
-								555,
-								558
-							],
-							[
-								568,
-								571
-							],
-							[
-								581,
-								584
-							],
-							[
-								594,
-								597
-							],
-							[
-								607,
-								610
-							],
-							[
-								618,
-								621
-							],
-							[
-								631,
-								634
-							],
-							[
-								644,
-								647
-							],
-							[
-								657,
-								660
-							],
-							[
-								670,
-								673
-							],
-							[
-								683,
-								686
-							],
-							[
-								696,
-								699
-							],
-							[
-								709,
-								712
-							],
-							[
-								722,
-								725
-							],
-							[
-								735,
-								738
-							],
-							[
-								748,
-								751
-							],
-							[
-								761,
-								764
-							],
-							[
-								774,
-								777
-							],
-							[
-								787,
-								790
-							],
-							[
-								800,
-								803
-							],
-							[
-								813,
-								816
-							],
-							[
-								824,
-								827
-							],
-							[
-								837,
-								840
-							],
-							[
-								850,
-								853
-							],
-							[
-								863,
-								866
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"vintage":
-							{
-								"action": null,
-								"action_count": "",
-								"mode": "mode_normal",
-								"motion": null,
-								"motion_count": "",
-								"must_capture_register_name": false,
-								"partial_sequence": "",
-								"register": "\"",
-								"sequence": "",
-								"xpos": 0
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 446.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "Day_07/in.txt",
+					"buffer": 2,
+					"file": "Day_08/in.txt",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5304,
+						"buffer_size": 6495,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5304,
-								5304
+								6495,
+								6495
 							]
 						],
 						"settings":
@@ -944,10 +662,10 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 5121.0,
+						"translation.y": 4305.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
