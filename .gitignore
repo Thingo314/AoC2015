@@ -1,4 +1,6 @@
 *.class
 *.txt
 
+*.jar
+
 *.sublime-workspace
